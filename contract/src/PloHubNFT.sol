@@ -6,12 +6,12 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
-contract NFTLootBox is ERC721URIStorage, Ownable(msg.sender) {
+contract PloHubNFT is ERC721URIStorage, Ownable(msg.sender) {
     uint256 private _tokenIds;
     IERC20 token;
     uint256 nftPrice;
 
-    constructor() ERC721("MyNFTs", "MNFT") {
+    constructor() ERC721("PloHubNFTs", "PHNFT") {
         nftPrice = 20;
     }
 

@@ -70,3 +70,9 @@ $ cast --help
 ```shell
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
 ```
+
+### Generate Rust bindings
+
+```shell
+$ forge bind --select PloHub* --overwrite
+```
