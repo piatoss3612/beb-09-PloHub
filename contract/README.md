@@ -64,3 +64,9 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+### Install Openzeppelin Contracts
+
+```shell
+forge install OpenZeppelin/openzeppelin-contracts --no-commit
+```
